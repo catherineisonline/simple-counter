@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: navajowhite;
+}
+.container {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+#value {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.button-container .btn {
+  font-size: 30px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+@media (max-width: 480px) {
+  .button-container .btn {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
